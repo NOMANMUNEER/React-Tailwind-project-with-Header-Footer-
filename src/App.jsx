@@ -1,15 +1,15 @@
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
+import Header from './Component/Header';
+import Footer from './Component/Footer';
+import './App.css'; // ✅ Tailwind CSS
 
 
-
-
-
-// The main App component with HTML structure
 function App() {
-  return (
-    <>
-      <h3>this nomwn</h3>
-    </>
+ return(
+  <>
+    <Header/>
+    <Footer/>
+  </>
   );
 }
 
